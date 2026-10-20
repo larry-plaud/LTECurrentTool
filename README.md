@@ -59,7 +59,7 @@
 
 | 设备 | 型号 | 用途 | 默认连接地址 |
 |------|------|------|--------------|
-| 综测仪 | Rohde & Schwarz **CMW500** | 建立 LTE 小区、信令与功率控制 | `TCPIP0::172.29.0.3::INSTR`（LAN/VISA） |
+| 综测仪 | Rohde & Schwarz **CMW500** | 建立 LTE 小区、信令与功率控制 | `TCPIP0::192.0.2.10::INSTR`（LAN/VISA） |
 | 直流电源 | Keysight/Agilent **66319D** | `MEAS:CURR?` 积分平均采集工作电流 | `GPIB0::5::INSTR`（GPIB，通道 1） |
 
 > 66319D 默认输出 **4.0 V**、电流限制 **3.0 A**（可在 `src/LTECurrentRules.cs` 中查看固定参数）。
